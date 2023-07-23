@@ -4,7 +4,7 @@ import ArrowIcon from "./Arrow";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="border-t pt-5">
       <div className="flex flex-wrap lg:flex-nowrap gap-x-10 gap-y-5 md:gap-y-0">
         <div className="w-full lg:w-4/6">
           <p className="text-base">

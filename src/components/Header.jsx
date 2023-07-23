@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Header = () => {
   return (
     <header>
-      <div className="container mx-auto flex items-center justify-normal lg:justify-center py-4">
+      <div className="container mx-auto hidden md:flex items-center justify-normal lg:justify-center py-4">
         <nav className="block">
           <ul className="flex flex-wrap gap-x-10 text-2xl">
             <li>

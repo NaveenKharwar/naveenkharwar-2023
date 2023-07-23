@@ -14,7 +14,7 @@ const About = () => {
           Since 2018, I have developed multiple websites using WordPress and
           PHP, which helped me gain some amazing skills and experiences.
         </p>
-        <div className="flex flex-wrap justify-normal lg:justify-between gap-6 lg:gap-40 mt-16">
+        <div className="flex flex-wrap justify-normal lg:justify-between gap-6 lg:gap-40 mt-8 md:mt-16">
           <div className="3/6">
             <span className="text-5xl font-bold">30+</span>
             <p className="text-lg">More than 30 websites created</p>

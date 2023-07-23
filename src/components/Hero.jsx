@@ -3,7 +3,7 @@ import DisplayPicture from "../assets/naveen.jpg";
 
 const Hero = () => {
   return (
-    <section id="intro" className="mt-24 mb-6 lg:mb-12">
+    <section id="intro" className="mt-0 md:mt-24 mb-6 lg:mb-12">
       <div className="flex flex-wrap items-start">
         <div className="w-full lg:w-7/12 pr-0 md:pr-14 lg:pr-28">
           <h1 className="text-6xl font-bold mb-6">

@@ -3,7 +3,7 @@ import DisplayPicture from "../assets/naveen.jpg";
 
 const Hero = () => {
   return (
-    <section id="intro" className="mt-0 md:mt-24 mb-6 lg:mb-12">
+    <section id="intro" className="mt-0 sm:mt-12 lg:mt-24 mb-6 lg:mb-12">
       <div className="flex flex-wrap items-start">
         <div className="w-full lg:w-7/12 pr-0 md:pr-14 lg:pr-28">
           <h1 className="text-6xl font-bold mb-6">
@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex justify-normal lg:justify-end">
             <img
               src={DisplayPicture}
-              className="rounded-lg w-10/12 md:w-1/2 lg:w-full"
+              className="rounded-lg sm:w-4/12 md:w-5/12 lg:w-full"
               alt="Men with Dog"
             />
           </div>
@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
       <a
         href="#"
-        className="inline-block rounded-lg bg-black hover:bg-slate-700 text-white lowercase px-8 py-4 my-10"
+        className="inline-block rounded-lg bg-black hover:bg-slate-700 text-white lowercase px-8 py-4 my-6 md:my-10"
       >
         Contact me
       </a>

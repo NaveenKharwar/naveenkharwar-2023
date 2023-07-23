@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
+import ArrowIcon from "./Arrow";
+
 const Header = () => {
   return (
     <header>
-      <div className="container mx-auto hidden md:flex items-center justify-normal lg:justify-center py-4">
+      <div className="w-full hidden sm:flex items-center justify-normal lg:justify-center py-4">
         <nav className="block">
-          <ul className="flex flex-wrap gap-x-10 text-2xl">
+          <ul className="flex flex-wrap justify-between gap-x-10 text-2xl">
             <li>
               <a href="#">Home</a>
             </li>

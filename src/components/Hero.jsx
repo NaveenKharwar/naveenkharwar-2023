@@ -40,12 +40,20 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      <a
-        href="#"
-        className="inline-block rounded-lg bg-black hover:bg-slate-700 text-white lowercase px-8 py-4 my-6 md:my-10"
-      >
-        Contact me
-      </a>
+      <div className="flex">
+        <a
+          href="mailto:naveenkharwar21@protonmail.com"
+          className="inline-block rounded-lg bg-black hover:bg-slate-700 text-white lowercase px-8 py-4 my-6 md:my-10"
+        >
+          Contact me
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1rOx7pqt-D2Xlnnh90HAIeLv9TG5-B3tW/view"
+          className="inline-block rounded-lg lowercase underline px-8 py-4 my-6 md:my-10"
+        >
+          Download Resume
+        </a>
+      </div>
     </section>
   );
 };

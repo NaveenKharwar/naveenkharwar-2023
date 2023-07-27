@@ -8,16 +8,16 @@ const Header = () => {
         <nav className="bg-transparent text-slate-700 p-4 sm:p-0 hidden sm:flex justify-normal md:justify-center">
           <ul className="flex flex-col sm:flex-row gap-4 text-2xl divide-y sm:divide-y-0">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Write ups</a>
+              <a href="https://www.instagram.com/aaakash.writes/">Write ups</a>
             </li>
             <li>
-              <a href="#">My Books</a>
+              <a href="https://www.libib.com/u/naveenkharwar/l/1665792">Library</a>
             </li>
           </ul>
         </nav>

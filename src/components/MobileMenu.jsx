@@ -18,16 +18,16 @@ const MobileMenu = () => {
           <nav className="fixed top-0 left-0 right-0 bg-white p-4 text-center">
             <ul className="flex flex-col gap-4 text-2xl">
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Write ups</a>
+                <a href="https://www.instagram.com/aaakash.writes/">Write ups</a>
               </li>
               <li>
-                <a href="#">My Books</a>
+                <a href="https://www.libib.com/u/naveenkharwar/l/1665792">Library</a>
               </li>
             </ul>
           </nav>

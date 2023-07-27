@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-
-import ArrowIcon from "./Arrow";
+import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
-    <header>
-      <div className="w-full hidden sm:flex items-center justify-normal lg:justify-center py-4">
-        <nav className="block">
-          <ul className="flex flex-wrap justify-between gap-x-10 text-2xl">
+    <>
+      <header className="relative">
+        <nav className="bg-transparent text-slate-700 p-4 sm:p-0 hidden sm:flex justify-normal md:justify-center">
+          <ul className="flex flex-col sm:flex-row gap-4 text-2xl divide-y sm:divide-y-0">
             <li>
               <a href="#">Home</a>
             </li>
@@ -22,8 +21,9 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-		</div>
-    </header>
+		<MobileMenu />
+      </header>
+    </>
   );
 };
 
